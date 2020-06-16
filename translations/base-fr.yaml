@@ -60,7 +60,7 @@ steamPage:
             [*] Différentes cartes, contenant éventuellement des obstacles
             [*] Création configurable de carte (éditer le nombre et la taille des gisements de resources, édition de la graine générant la carte, et plus encore)
             [*] Davantage de types de formes
-            [*] Performance améliorée (bien que le jeu tourne déjà de manière tout à fait décente !)
+            [*] Performance améliorée (bien que le jeu tourne déjà de manière tout à fait acceptable !)
             [*] Adaptation de l'affichage des couleurs à différentes formes de daltonisme
             [*] Et bien plus encore !
         [/list]
@@ -209,7 +209,7 @@ dialogs:
 
     keybindingsResetOk:
         title: Réinitialisation des contrôles
-        desc: Les contrôles ont été réinitialisés par leur état par défaut respectifs !
+        desc: Les contrôles ont été réinitialisés dans leur état par défaut respectifs !
 
     featureRestriction:
         title: Version démo
@@ -217,7 +217,7 @@ dialogs:
 
     oneSavegameLimit:
         title: Sauvegardes limitées
-        desc: Vous ne pouvez avoir qu'une seule sauvegarde en même temps dans la version démo. Merci d'effacer celle en cours ou alternativement de vous procurer la version complète !
+        desc: Vous ne pouvez avoir qu'une seule sauvegarde en même temps dans la version démo. Merci d'effacer celle en cours ou bien procurez-vous la version complète !
 
     updateSummary:
         title: Nouvel mise-à-jour !
@@ -233,13 +233,13 @@ dialogs:
     massDeleteConfirm:
         title: Confirmation de suppression
         desc: >-
-            Vous allez supprimer pas mal de bâtiments (<count> pour être exact) ! Etes vous certains de vouloir faire cela ?
+            Vous allez supprimer pas mal de bâtiments (<count> pour être exact) ! Etes-vous certain de vouloir faire cela ?
 
     massCutConfirm:
         title: Confirmer la coupure
         desc: >-
             Vous vous apprêtez à couper beaucoup de bâtiments (<count> pour être précis) ! Êtes-vous
-            certains de vouloir faire cela ?
+            certain de vouloir faire cela ?
 
     blueprintsNotUnlocked:
         title: Pas encore débloqué
@@ -249,18 +249,17 @@ dialogs:
     keybindingsIntroduction:
         title: Raccourcis utiles
         desc: >-
-            Le jeu a plein de raccourcis facilitant la construction de grandes usines.
-            En voici quelques uns, n'hésitez pas à aller <strong>découvrir les raccourcis</strong> !<br><br>
+            Le jeu dispose de nombreux raccourcis facilitant la construction de grandes usines.
+            En voici quelques-uns, n'hésitez pas à aller <strong>découvrir les raccourcis</strong> !<br><br>
             <code class='keybinding'>CTRL</code> + Glisser: Sélectionne une zone à copier / effacer.<br>
-            <code class='keybinding'>SHIFT</code>: Laissez appuyé pour placer plusieurs fois le même bâtiment.<br>
+            <code class='keybinding'>SHIFT</code>: Maintenez appuyé pour placer plusieurs fois le même bâtiment.<br>
             <code class='keybinding'>ALT</code>: Inverse l'orientation des convoyeurs placés.<br>
 
     createMarker:
         title: Nouvelle balise
-        desc: Give it a meaningful name, you can also include a <strong>short key</strong> of a shape (Which you can generate <a href="https://viewer.shapez.io" target="_blank">here</a>)
-
+        desc: Donnez-lui un nom explicite, vous pouvez aussi créer une <strong>touche de raccourci</strong> d'une forme (que vous pouvez générer <a href="https://viewer.shapez.io" target="_blank">here</a>)
     markerDemoLimit:
-        desc: Vous ne pouvez créer que deux balises dans la démo. Achetez la version complète pour en faire tant que vous voulez !
+        desc: Vous ne pouvez créer que deux balises dans la démo. Achetez la version complète pour en créer autant que vous le souhaitez !
 
     exportScreenshotWarning:
         title: Exporter une capture d'écran
@@ -274,7 +273,7 @@ ingame:
         moveMap: Déplacer
         selectBuildings: Sélection de la zone
         stopPlacement: Arrêter le placement
-        rotateBuilding: Tourner le bâtiment
+        rotateBuilding: Pivoter le bâtiment
         placeMultiple: Placement multiple
         reverseOrientation: Changer l'orientation
         disableAutoOrientation: Désactiver l'orientation automatique
@@ -346,7 +345,7 @@ ingame:
                 title: Produit
                 description: Affiche tous les formes que votre usine entière produit, en incluant les formes intermédiaires.
             delivered:
-                title: Délivré
+                title: Livré
                 description: Affiche les formes qui ont été livrées dans votre centre.
         noShapesProduced: Aucune forme n'a été produite jusqu'à présent.
 
@@ -379,7 +378,7 @@ ingame:
     waypoints:
         waypoints: Balise
         hub: Centre
-        description: Cliquez une balise pour vous y rendre, clic-droit pour l'effacer.<br><br>Appuyez sur <keybinding> pour créer une balise sur la vue actuelle, ou <strong>clic-droit</strong> pour en créer une sur l'endroit pointé.
+        description: Cliquez sur une balise pour vous y rendre, clic-droit pour l'effacer.<br><br>Appuyez sur <keybinding> pour créer une balise sur la vue actuelle, ou <strong>clic-droit</strong> pour en créer une sur l'endroit pointé.
         creationSuccessNotification: La balise a été créée.
 
     # Interactive tutorial
@@ -416,25 +415,25 @@ buildings:
     belt:
         default:
             name: &belt Convoyeur
-            description: Transporte les objects, maintenez et faites glisser pour en placer plusieurs.
+            description: Transporte les objets, maintenez et faites glisser pour en placer plusieurs.
 
     miner: # Internal name for the Extractor
         default:
             name: &miner Extracteur
-            description: Placez-le au dessus d'une forme ou couleur pour l'extraire.
+            description: Placez-le au dessus d'une forme ou d'une couleur pour l'extraire.
 
         chainable:
             name: Extracteur en série
-            description: Placez-le au dessus d'une forme ou couleur pour l'extraire. Peut être mis en série.
+            description: Placez-le au dessus d'une forme ou d'une couleur pour l'extraire. Peut être mis en série.
 
     underground_belt: # Internal name for the Tunnel
         default:
             name: &underground_belt Tunnel
-            description: Permet de faire passer des ressources en dessous de bâtiment et de convoyeurs.
+            description: Permet de faire passer des ressources en dessous des bâtiments et des convoyeurs.
 
         tier2:
             name: Tunnel Niveau II
-            description: Permet de faire passer des ressources en dessous de bâtiment et de convoyeurs.
+            description: Permet de faire passer des ressources en dessous des bâtiments et des convoyeurs.
 
     splitter: # Internal name for the Balancer
         default:
