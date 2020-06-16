@@ -523,11 +523,11 @@ storyRewards:
 
     reward_stacker:
         title: Combineur
-        desc: Vous pouvez maintenant combiner deux formes avec le <strong>combineur</strong> ! Les deux entrées sont combinée et si elles ne peuvent êtres mises l'une à côté de l'autre, elles sont <strong>fusionnées</strong>. Sinon, la forme de droite est <strong>placée au dessus</strong> de la forme de gauche après avoir été légèrement réduite.
+        desc: Vous pouvez maintenant combiner deux formes avec le <strong>combineur</strong> ! Les deux entrées sont combinées et si elles ne peuvent êtres mises l'une à côté de l'autre, elles sont <strong>fusionnées</strong>. Sinon, la forme de droite est <strong>placée au dessus</strong> de la forme de gauche après avoir été légèrement réduite.
 
     reward_splitter:
         title: Distributeur/Rassembleur
-        desc: Le <strong>répartiteur</strong> multifonctionnel a été débloqué - Il peut être utilisé pour construire de plus grandes usines en <strong>distribuant équitablement et rassemblant les formes</strong> entre plusieurs convoyeurs !<br><br>
+        desc: Le <strong>répartiteur</strong> multifonctionnel a été débloqué - Il peut être utilisé pour construire de plus grandes usines en <strong>distribuant équitablement et en rassemblant les formes</strong> entre plusieurs convoyeurs !<br><br>
 
     reward_tunnel:
         title: Tunnel
@@ -552,7 +552,7 @@ storyRewards:
 
     reward_cutter_quad:
         title: Quadruple découpeur
-        desc: Vous avez débloqué une variante du <strong>découpeur</strong> - Elle permet de découper les formes en <strong>quatre parties</strong> à la place de simplement deux !
+        desc: Vous avez débloqué une variante du <strong>découpeur</strong> - Elle permet de découper les formes en <strong>quatre parties</strong> au lieu de deux !
 
     reward_painter_double:
         title: Double peintre
@@ -614,7 +614,7 @@ settings:
         scrollWheelSensitivity:
             title: Sensibilité du zoom
             description: >-
-                Change la sensibilité du zoom (aussi bien de la roulette de la souris que du pavé tactile).
+                Change la sensibilité du zoom (aussi bien celle de la molette de la souris que celle du pavé tactile).
             sensitivity:
                 super_slow: Super lent
                 slow: Lent
@@ -662,9 +662,9 @@ settings:
                 Affiche ou non le bouton 'Afficher un indice' dans le coin inférieur gauche.
 
         language:
-            title: Langage
+            title: Lanue
             description: >-
-                Change le langage. Toutes les traductions sont des contributions des utilisateurs et pourraient être partiellement incomplètes !
+                Change la langue. Toutes les traductions sont des contributions des utilisateurs et pourraient être partiellement incomplètes !
 
         movementSpeed:
             title: Vitesse de déplacement
@@ -740,7 +740,7 @@ keybindings:
         pasteLastBlueprint: Copier le dernier patron
         massSelectCut: Couper la sélection
         exportScreenshot: Exporter toute la base en tant qu'image.
-        mapMoveFaster: Move Faster
+        mapMoveFaster: Déplacer plus vite
 
 about:
     title: À propos de ce jeu
